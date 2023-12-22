@@ -5,9 +5,9 @@
 public class Coins {
 	public static void main(String[] args) {
 		int coins = Integer.parseInt(args[0]);
-		int numofquarters = coins/25;
+		int numofquarters = (coins/25);
 		int numofcents = coins - (numofquarters * 25);
-		System.out.println("Use" + numofquarters + "quarters and" + numofcents + "cents");
+		System.out.println("Use " + "  " + numofquarters + " quarters and " + "  " + numofcents + " cents");
 		
 	}
 }
