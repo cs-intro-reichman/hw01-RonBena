@@ -11,7 +11,7 @@ public class Triangle {
 	int sum1 = a+b;
 	int sum2 = b+c;
 	int sum3 = a+c;
-	System.out.println((a + "," + b + "," + c + ":" )+ (sum1>c && sum2>a && sum3>b ));
+	System.out.println((a + " , " + b + " , " + c + ": " )+ (sum1>c && sum2>a && sum3>b ));
 
 	}
 }
