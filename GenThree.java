@@ -3,9 +3,9 @@
  * prints them, and then prints the minimal number that was genergitated.
  */
 public class GenThree {
-	public static void main(String[] args) {
-		int a = Integer.parseInt(args[0]);
-		int b = Integer.parseInt(args[1]);
+	public static void main(String[] asdf) {
+		int a = Integer.parseInt(asdf[0]);
+		int b = Integer.parseInt(asdf[1]);
 		int x = (int)(Math.random() * (b - a)) + a;
 		int y = (int)(Math.random() * (b - a)) + a;
 		int z = (int)(Math.random() * (b - a)) + a;
